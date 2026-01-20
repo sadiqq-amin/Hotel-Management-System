@@ -29,9 +29,9 @@ npm install
 SOURCE C:\path\to\your\project\server\with\these\inverted\slashes\database.sql;
 ```
 ## 4. Environment Configuration<br>
+Create a .env file in the server directory:<br>
+-change DB_PASSWORD to your pc's mysql password
 ```bash
-Create a .env file in the server directory:
-change DB_PASSWORD to your pc's mysql password
 PORT=5000
 DB_HOST=localhost
 DB_USER=root<
@@ -39,12 +39,13 @@ DB_PASSWORD=your-pcs-mysql-password
 DB_NAME=hotel_management
 JWT_SECRET=your-super-secret-jwt-key
 ```
-```bash
+
 ## 5. Run the Application<br>
-run them separately on two terminals:
-Backend (from root)
+```bash
+# run them separately on two terminals:
+# Backend (from root)
 npm run server
-Frontend (from root)
+# Frontend (from root)
 npm run client
 ```
 
